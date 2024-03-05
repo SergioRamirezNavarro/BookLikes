@@ -11,7 +11,16 @@
     <title>Usuario</title>
 </head>
 <body>
+    <header>Welcome, -usuario-</header>
+    <hr>
+    </hr>
     <header>
+        <a>Usuario: --</a>
+        <br></br>
+        <a>Nombre: --</a>
+        <br></br>
+        <a>Email: --</a>
+        <br></br>
     </header>
 
 </body>
