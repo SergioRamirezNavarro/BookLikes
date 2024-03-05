@@ -16,7 +16,7 @@
     <header>
         <div>
             <h1>Book Likes</h1>
-            <a href="login">login</a>
+            <a href="login.jsp">login</a>
         </div>
     </header>
     <hr>
