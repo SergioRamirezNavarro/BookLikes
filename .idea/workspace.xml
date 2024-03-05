@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="linkeado index con login. creada interfaz de login">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="link a registros">
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -184,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709576463248</updated>
       <workItem from="1709576464340" duration="2000" />
-      <workItem from="1709650509573" duration="7843000" />
+      <workItem from="1709650509573" duration="8439000" />
     </task>
     <task id="LOCAL-00001" summary="Creadas carpetas para webapp y añadidas &quot;index&quot; y &quot;login&quot;">
       <option name="closed" value="true" />
@@ -202,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709655766015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="link a registros">
+      <option name="closed" value="true" />
+      <created>1709660503493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709660503493</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creadas carpetas para webapp y añadidas &quot;index&quot; y &quot;login&quot;" />
     <MESSAGE value="linkeado index con login. creada interfaz de login" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkeado index con login. creada interfaz de login" />
+    <MESSAGE value="link a registros" />
+    <option name="LAST_COMMIT_MESSAGE" value="link a registros" />
   </component>
 </project>
