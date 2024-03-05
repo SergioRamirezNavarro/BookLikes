@@ -16,7 +16,6 @@ public class IndexServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
        // int idbook= Integer.parseInt(request.getParameter("idbook"));
         //User user= (User) request.getSession().getAttribute("user");
-        response.setStatus(HttpServletResponse.SC_SEE_OTHER);
         response.setHeader("Location", "/login");
 // Si el usuario no ha iniciado sesión, devuelve 303 See Other
 //        if (user == null) {

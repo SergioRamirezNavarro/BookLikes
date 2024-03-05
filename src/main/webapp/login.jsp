@@ -43,8 +43,8 @@
                         <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
 
                         <div class="form-outline mb-4">
-                            <input type="text" id="form2Example18" name="user" class="form-control form-control-lg">
-                            <label class="form-label" for="form2Example18">Username</label>
+                            <input type="text" id="form2Example18" name="email" class="form-control form-control-lg">
+                            <label class="form-label" for="form2Example18">Email</label>
                         </div>
 
                         <div class="form-outline mb-4">
