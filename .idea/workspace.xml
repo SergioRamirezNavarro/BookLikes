@@ -62,6 +62,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alumno Tarde\IdeaProjects\BookLikes\src\main\resources" />
+      <recent name="C:\Users\Alumno Tarde\IdeaProjects\BookLikes\src\main\java\com\ceica" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
