@@ -11,17 +11,59 @@
     <title>Usuario</title>
 </head>
 <body>
-    <header>Welcome, -usuario-</header>
-    <hr>
-    </hr>
+<div class="container">
     <header>
-        <a>Usuario: --</a>
-        <br></br>
-        <a>Nombre: --</a>
-        <br></br>
-        <a>Email: --</a>
-        <br></br>
+        Welcome, <p>${name}</p>
+        <a href="?logout=salir">salir</a>
     </header>
+    <hr>
+    <div class="datos">
+        <table class="table">
+            <thead>
+                <table>
+                    <tr>
+                        <th scope="col">-idlibro-</th>
+                        <th scope="col">-titulo-</th>
+                        <th scope="col">-descripcion-</th>
+                        <th scope="col">-autor-</th>
+                        <th scope="col">-fecha de creacion-</th>
+                        <!-- <th scope="col">contraseña</th> -->
+
+                    </tr>
+                </table>
+            </thead>
+
+            <tbody id="tableTask">
+            <c:choose>
+                <c:when test="${empty listalibros}">
+                    <tr>
+                        <td colspan="3">No hay tareas disponibles.</td>
+                    </tr>
+                </c:when>
+                <c:otherwise>
+                    <c:forEach items="${listalibros}" var="book">
+                        <tr>
+                            <td><c:out value="${book.idbook}"/></td>
+                            <td><c:out value="${book.title}"/></td>
+                            <td><c:out value="${book.description}"/></td>
+                            <td><c:out value="${book.author}"/></td>
+                            <fmt:formatDate value="${book.createtime}" pattern="dd-MM-yyyy" var="formattedCreate_time" />
+                            <td><c:out value="${formattedCreatetime}" /></td>
+                            <td><c:out value="${book.iduser}"/></td>
+                            <td>
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i onClick="borrar(${book.idtask})" class="fa-solid fa-trash"></i>
+                            </td>
+                        </tr>
+                    </c:forEach>
+                </c:otherwise>
+            </c:choose>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
 
 </body>
 </html>

@@ -16,11 +16,11 @@
     <header>
         <div>
             <h1>Book Likes</h1>
-            <a href="login.jsp">login</a>
+            <a href="login">login</a>
             <br></br>
-            <a href="register.jsp">registros</a>
+            <a href="register">registros</a>
             <br></br>
-            <a href="user.jsp">usuario</a>
+            <a href="user">usuario</a>
         </div>
     </header>
     <hr>
