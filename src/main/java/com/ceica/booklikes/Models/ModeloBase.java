@@ -1,4 +1,4 @@
-ackage com.ceica.tareasweb.models;
+package com.ceica.booklikes.Models;
 
 import java.io.FileInputStream;
 import java.io.IOException;
