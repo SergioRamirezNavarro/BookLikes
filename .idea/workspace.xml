@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="LoginServlet ya funciona" />
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="User de prueba">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +192,7 @@
       <updated>1709576463248</updated>
       <workItem from="1709576464340" duration="2000" />
       <workItem from="1709650509573" duration="14440000" />
-      <workItem from="1709736904922" duration="7905000" />
+      <workItem from="1709736904922" duration="11269000" />
     </task>
     <task id="LOCAL-00001" summary="Creadas carpetas para webapp y añadidas &quot;index&quot; y &quot;login&quot;">
       <option name="closed" value="true" />
@@ -269,7 +274,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709745498452</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="LoginServlet ya funciona ahora pusheado">
+      <option name="closed" value="true" />
+      <created>1709746048045</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709746048045</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Takcontroller de prueba">
+      <option name="closed" value="true" />
+      <created>1709746130131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709746130132</updated>
+    </task>
+    <task id="LOCAL-00013" summary="User de prueba">
+      <option name="closed" value="true" />
+      <created>1709746240195</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709746240195</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,17 +321,9 @@
     <MESSAGE value="modelobase y users" />
     <MESSAGE value="modelobase y users otra vez" />
     <MESSAGE value="LoginServlet ya funciona" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginServlet ya funciona" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/LoginServlet.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="LoginServlet ya funciona ahora pusheado" />
+    <MESSAGE value="Takcontroller de prueba" />
+    <MESSAGE value="User de prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="User de prueba" />
   </component>
 </project>
