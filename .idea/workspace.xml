@@ -9,14 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="sevlets de index &amp; login">
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="modelobase y users otra vez">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,21 +58,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
-    "git-widget-placeholder": "Fran",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Fran&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alumno Tarde\IdeaProjects\BookLikes\src\main\webapp" />
@@ -193,7 +187,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709576463248</updated>
       <workItem from="1709576464340" duration="2000" />
-      <workItem from="1709650509573" duration="14356000" />
+      <workItem from="1709650509573" duration="14440000" />
+      <workItem from="1709736904922" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="Creadas carpetas para webapp y añadidas &quot;index&quot; y &quot;login&quot;">
       <option name="closed" value="true" />
@@ -235,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709661209653</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modelobase y users">
+      <option name="closed" value="true" />
+      <created>1709667185806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709667185806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modelobase y users otra vez">
+      <option name="closed" value="true" />
+      <created>1709667225117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709667225117</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +266,8 @@
     <MESSAGE value="linkeado index con login. creada interfaz de login" />
     <MESSAGE value="link a registros" />
     <MESSAGE value="sevlets de index &amp; login" />
-    <option name="LAST_COMMIT_MESSAGE" value="sevlets de index &amp; login" />
+    <MESSAGE value="modelobase y users" />
+    <MESSAGE value="modelobase y users otra vez" />
+    <option name="LAST_COMMIT_MESSAGE" value="modelobase y users otra vez" />
   </component>
 </project>
