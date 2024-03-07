@@ -1,9 +1,8 @@
 package com.ceica.booklikes.Models;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class User extends ModeloBase {
@@ -20,6 +19,14 @@ public class User extends ModeloBase {
         this.nombre = nombre;
         this.email = email;
         this.contraseña = contraseña;
+    }
+
+    public int getIdusuario() {
+        return idusuario;
+    }
+
+    public void setIdusuario(int idusuario) {
+        this.idusuario = idusuario;
     }
 
     @Override
@@ -86,6 +93,29 @@ public class User extends ModeloBase {
 
     public void setContraseña(String contraseña) {
         this.contraseña = contraseña;
+    }
+
+    public List<User> getAll() {
+        List<User> userList=new ArrayList<>();
+        User user=new User();
+        Connection conn=user.getConnection();
+        String consulta= "select idusuario,nombre,email,contraseña \n" +
+                "from usuario";
+        try {
+            Statement stm=conn.createStatement();
+            ResultSet resultSet=stm.executeQuery(consulta);
+            while (resultSet.next()){
+                User user1=new User();
+                user1.setIdusuario(resultSet.getInt("idusuario"));
+                user1.setNombre(resultSet.getString("nombre"));
+                user1.setEmail(resultSet.getString("email"));
+                user1.setContraseña(resultSet.getString("contraseña"));
+                userList.add(user1);
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return userList;
     }
 }
 

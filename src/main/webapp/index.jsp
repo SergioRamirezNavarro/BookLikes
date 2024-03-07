@@ -5,9 +5,10 @@
 <html>
 <head>
     <title>index</title>
-
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
+
 <div class="container">
     <header>
         <div>

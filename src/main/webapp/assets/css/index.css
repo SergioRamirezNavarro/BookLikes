@@ -1,0 +1,16 @@
+body{
+    background-color: #EEE5D7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A29D85;
+
+
+}
+.container{
+    display:
+    margin: 0 auto;
+    width: 80%;
+}
+
