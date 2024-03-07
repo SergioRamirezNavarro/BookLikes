@@ -58,6 +58,7 @@ public class UserServlet extends HttpServlet {
                         bookDTO.setIduser(3);
                         bookDTOList.add(bookDTO);
                         bookDTOList.add(bookDTO);
+                        bookDTOList.add(bookDTO);
                         request.setAttribute("listaLibros",bookDTOList);
 
                         request.getRequestDispatcher("user.jsp").forward(request, response);

@@ -40,15 +40,17 @@
                                 <td><c:out value="${book.author}" /></td>
                                 <td>
                                     <i class="fa-solid fa-pen-to-square"></i>
-
-
                                 </td>
+                                <td><button onclick="">dar like libro</button></td>
                             </tr>
                         </c:forEach>
                     </c:otherwise>
                 </c:choose>
                 </tbody>
             </table>
+        <button onclick="">dar alta libro</button>
+
+        <button onclick="">dar baja libro</button>
                 <!-- <table>
                     <tr>
                         <th scope="col">-idlibro-</th>

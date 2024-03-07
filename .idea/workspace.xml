@@ -9,35 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookLikes_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookLikes_war_exploded.xml" beforeDir="false" />
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/controller/TaskController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/models/ModeloBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/servlets/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/servlets/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/servlets/UserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/css/user.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/images/taskapp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/images/taskapp_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/js/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/user.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/BookDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/RegisterServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,29 +59,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.BookLikes [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.BookLikes [org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.tomcat.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;sergio&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AlumnoTarde/IdeaProjects/BookLikes/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.BookLikes [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
+    "Maven.BookLikes [org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
+    "Tomcat Server.tomcat.executor": "Run",
+    "git-widget-placeholder": "sergio",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/AlumnoTarde/IdeaProjects/BookLikes/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ceica.booklikes.controller" />
@@ -315,7 +289,7 @@
       <workItem from="1709659065867" duration="7009000" />
       <workItem from="1709736842109" duration="3710000" />
       <workItem from="1709741608081" duration="10463000" />
-      <workItem from="1709825990765" duration="5114000" />
+      <workItem from="1709825990765" duration="9445000" />
     </task>
     <task id="LOCAL-00001" summary="Proyecto Inicial.">
       <option name="closed" value="true" />
@@ -357,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709750385687</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.">
+      <option name="closed" value="true" />
+      <created>1709832620400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709832620400</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +350,7 @@
     <MESSAGE value="Proyecto Inicial. Registro con tabla." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod)." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs." />
+    <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register." />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register." />
   </component>
 </project>
