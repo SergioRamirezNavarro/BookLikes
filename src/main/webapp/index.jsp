@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.ceica.booklikes.models.ModeloBase" %><%--
   Created by IntelliJ IDEA.
   User: Alumno Tarde
   Date: 05/03/2024
@@ -6,6 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    ModeloBase modeloBase=new ModeloBase() {
+        @Override
+        protected String getNombreTabla() {
+            return null;
+        }
+    };
+    modeloBase.getConnection();
+%>
 <html>
 <head>
     <title>index</title>

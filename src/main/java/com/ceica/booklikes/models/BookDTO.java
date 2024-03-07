@@ -7,19 +7,12 @@ public class BookDTO {
     private String title;
     private String description;
     private  String author;
-    private Date createtime;
     private int iduser;
+    private String createdate;
 
     public BookDTO() {
     }
 
-    public Date getCreatetime() {
-        return createtime;
-    }
-
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
-    }
 
     public int getIduser() {
         return iduser;

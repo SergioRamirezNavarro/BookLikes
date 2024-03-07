@@ -23,19 +23,11 @@ import java.util.List;
 public class UserServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
     {
-        String logoutParam = request.getParameter("logout");
 
-        List<BookDTO> bookDTOList = new ArrayList<>();
-        BookDTO bookDTO=new BookDTO();
-        bookDTO.setIdbook(2);
-        bookDTO.setTitle("asdfasd");
-        bookDTO.setDescription("assssssssss");
-        bookDTO.setAuthor("!asd");
-        bookDTO.setCreatetime(new Date("createtime"));
-        bookDTO.setIduser(3);
-        bookDTOList.add(bookDTO);
-        bookDTOList.add(bookDTO);
-        request.setAttribute("listaLibros",bookDTOList);
+
+
+
+        String logoutParam = request.getParameter("logout");
 
         // Si el parámetro "logout" tiene el valor "salir"
         if ("salir".equals(logoutParam)) {
@@ -56,8 +48,19 @@ public class UserServlet extends HttpServlet {
                     response.sendRedirect("login");
                 }   else
                     {
+                        request.setAttribute("nombre", user.getNombre());
+                        List<BookDTO> bookDTOList = new ArrayList<>();
+                        BookDTO bookDTO=new BookDTO();
+                        bookDTO.setIdbook(2);
+                        bookDTO.setTitle("asdfasd");
+                        bookDTO.setDescription("assssssssss");
+                        bookDTO.setAuthor("!asd");
+                        bookDTO.setIduser(3);
+                        bookDTOList.add(bookDTO);
+                        bookDTOList.add(bookDTO);
+                        request.setAttribute("listaLibros",bookDTOList);
+
                         request.getRequestDispatcher("user.jsp").forward(request, response);
-                        response.sendRedirect("admin");
                     }
             }
     }

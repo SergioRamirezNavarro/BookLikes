@@ -9,20 +9,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/ModeloBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" afterDir="false" />
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookLikes_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookLikes_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/HelloResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/controller/TaskController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/models/ModeloBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/servlets/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/servlets/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/classes/com/ceica/booklikes/servlets/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/css/user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/images/taskapp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/images/taskapp_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/assets/js/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLikes_war_exploded/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user.jsp" afterDir="false" />
     </list>
@@ -300,7 +314,8 @@
       <workItem from="1709650617949" duration="4222000" />
       <workItem from="1709659065867" duration="7009000" />
       <workItem from="1709736842109" duration="3710000" />
-      <workItem from="1709741608081" duration="7442000" />
+      <workItem from="1709741608081" duration="10463000" />
+      <workItem from="1709825990765" duration="5114000" />
     </task>
     <task id="LOCAL-00001" summary="Proyecto Inicial.">
       <option name="closed" value="true" />
@@ -326,7 +341,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709667218166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.">
+      <option name="closed" value="true" />
+      <created>1709750356921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709750356921</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.">
+      <option name="closed" value="true" />
+      <created>1709750385687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709750385687</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +367,7 @@
     <MESSAGE value="Proyecto Inicial." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod)." />
+    <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs." />
   </component>
 </project>
