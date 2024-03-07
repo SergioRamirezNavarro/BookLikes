@@ -1,6 +1,6 @@
 package com.ceica.booklikes.Models;
 
-public class User extends ModeloBase{
+public class User extends ModeloBase {
     private int idusuario;
     private String nombre;
     private String email;
@@ -41,6 +41,8 @@ public class User extends ModeloBase{
 
     @Override
     protected String getNombreTabla() {
-        return null;
+        return "usuario";
     }
+
+
 }

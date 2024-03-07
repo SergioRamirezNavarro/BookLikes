@@ -23,12 +23,11 @@ public class BookController {
         }
 
     }
-
-
-    public boolean editPassword(String username, String password) {
+    public boolean register(String username,String email,String password){
         User user = new User();
-        return user.actualizar("password=? where username=?", password, username);
+        return user.insertar("(username,email,contraseña) values (?,?,?)",username,email,password);
     }
+
 
     public boolean createBook(String title, String description, LocalDate deadline) {
         Book book = new Book();
@@ -61,5 +60,7 @@ public class BookController {
     public boolean favouriteBook(int idBook) {
         Book Book = new Book();
         return Book.favourite("idbook=?", idBook);
+
     }
+
 }
