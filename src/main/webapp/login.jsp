@@ -58,7 +58,7 @@
                         <c:if test="${mensaje!=null}">
                             <p class="text-muted">${mensaje}</p>
                         </c:if>
-                        <p class="small mb-5 pb-lg-2"><a class="text-muted" href="">Forgot password?</a></p>
+
                         <p>Don't have an account? <a href="" class="link-info">Register here</a></p>
 
                     </form>

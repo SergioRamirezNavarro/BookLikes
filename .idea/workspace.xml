@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.">
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,28 +57,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.BookLikes [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
-    "Maven.BookLikes [org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
-    "Tomcat Server.tomcat.executor": "Run",
-    "git-widget-placeholder": "sergio",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/AlumnoTarde/IdeaProjects/BookLikes/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.BookLikes [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BookLikes [org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.tomcat.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sergio&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AlumnoTarde/IdeaProjects/BookLikes/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ceica.booklikes.controller" />
@@ -178,6 +176,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="BookLikes:war exploded" />
+          <artifact name="BookLikes:war" />
         </option>
       </method>
     </configuration>
@@ -289,7 +288,8 @@
       <workItem from="1709659065867" duration="7009000" />
       <workItem from="1709736842109" duration="3710000" />
       <workItem from="1709741608081" duration="10463000" />
-      <workItem from="1709825990765" duration="9445000" />
+      <workItem from="1709825990765" duration="9705000" />
+      <workItem from="1709911352194" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="Proyecto Inicial.">
       <option name="closed" value="true" />
@@ -339,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709832620400</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.">
+      <option name="closed" value="true" />
+      <created>1709840526515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709840526515</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +359,7 @@
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod)." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register." />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register." />
+    <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user." />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user." />
   </component>
 </project>
