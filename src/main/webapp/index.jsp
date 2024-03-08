@@ -1,39 +1,64 @@
-<%@ page import="com.ceica.booklikes.models.ModeloBase" %><%--
-  Created by IntelliJ IDEA.
-  User: Alumno Tarde
-  Date: 05/03/2024
-  Time: 16:47
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    ModeloBase modeloBase=new ModeloBase() {
-        @Override
-        protected String getNombreTabla() {
-            return null;
-        }
-    };
-    modeloBase.getConnection();
-%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+
 <html>
 <head>
     <title>index</title>
-
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
+
 <div class="container">
-    <header>
+    <header class="header1">
         <div>
-            <h1>Book Likes</h1>
-            <a href="login">login</a>
+            <h1 style="text-align:center; font-size: 75px; color: #EAEAEA">Book Likes</h1>
             <br></br>
-            <a href="register">registros</a>
-            <br></br>
-            <a href="user">usuario</a>
         </div>
     </header>
     <hr>
+    <header class="header2">
+        <div>
+            <a href="login">login</a>
+            <br></br>
+        </div>
+    </header>
+    <table class="table" align="center">
 
+        <thead>
+        <tr>
+            <th scope="col">id libro</th>
+            <th scope="col">Título</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Autor</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <c:choose>
+            <c:when test="${empty listaLibros}">
+                <tr>
+                    <td colspan="3">No hay tareas disponibles.</td>
+                </tr>
+            </c:when>
+            <c:otherwise>
+                <c:forEach items="${listaLibros}" var="book">
+                    <tr>
+                        <td><c:out value="${book.idlibro}"/></td>
+                        <td><c:out value="${book.titulo}"/></td>
+                        <td><c:out value="${book.descripcion}"/></td>
+                        <td><c:out value="${book.autor}" /></td>
+                        <td>
+                            <i class="fa-solid fa-pen-to-square"></i>
+
+
+                        </td>
+                    </tr>
+                </c:forEach>
+            </c:otherwise>
+        </c:choose>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>

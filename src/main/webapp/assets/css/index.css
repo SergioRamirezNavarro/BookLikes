@@ -1,22 +1,21 @@
-header{
-    display: flex;
-    justify-content: space-between;
+body{
+    background-color: #EEE5D7;
 }
-header img{
-    width: 100px;
-    height: 100px;
+.header1{
+
+    justify-content: space-between;
+    background-color: #A29D85;
+
+
 }
 .container{
+
     margin: 0 auto;
     width: 80%;
+
+}
+.header2{
+    justify-content: space-between;
+    background-color: #7B7455;
 }
 
-p{
-background-color: yellow;
-}
-.uno{
-    color: green;
-}
-#uno{
-    background-color: blue;
-}
