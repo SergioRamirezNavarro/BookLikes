@@ -57,10 +57,6 @@ public class BookController {
         return book.borrar("idbook=?", idBook);
     }
 
-    public boolean favouriteBook(int idBook) {
-        Book book = new Book();
-        return book.favourite("idbook=?", idBook);
 
-    }
 
 }

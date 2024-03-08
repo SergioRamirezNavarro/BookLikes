@@ -1,7 +1,9 @@
 package com.ceica.booklikes.servlets;
 
+import com.ceica.booklikes.Models.Book;
 import com.ceica.booklikes.Models.BookDTO;
 import com.ceica.booklikes.Models.User;
+import com.ceica.booklikes.controller.BookController;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -18,17 +20,14 @@ import java.util.List;
 public class IndexServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         //quitar cuando se pille el controlador
-        List<BookDTO> bookDTOList = new ArrayList<>();
-        BookDTO bookDTO=new BookDTO();
-        bookDTO.setIdbook(2);
-        bookDTO.setTitle("asdfasd");
-        bookDTO.setDescription("assssssssss");
-        bookDTO.setAuthor("!asd");
-        bookDTOList.add(bookDTO);
-        bookDTOList.add(bookDTO);
-        request.setAttribute("listaLibros",bookDTOList);
+
        //hasta aqui
+
+        BookController bookController= new BookController();
+        List<Book> bookList= bookController.getAllBook();
+       request.setAttribute("listaLibros",bookList);
         request.getRequestDispatcher("index.jsp").forward(request, response);
+
 
     }
 

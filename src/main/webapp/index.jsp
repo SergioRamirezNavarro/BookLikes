@@ -10,15 +10,21 @@
 <body>
 
 <div class="container">
-    <header>
+    <header class="header1">
         <div>
-            <h1>Book Likes</h1>
-            <a href="login">login</a>
+            <h1 style="text-align:center; font-size: 75px; color: #EAEAEA">Book Likes</h1>
             <br></br>
         </div>
     </header>
     <hr>
-    <table class="table">
+    <header class="header2">
+        <div>
+            <a href="login">login</a>
+            <br></br>
+        </div>
+    </header>
+    <table class="table" align="center">
+
         <thead>
         <tr>
             <th scope="col">id libro</th>
@@ -38,10 +44,10 @@
             <c:otherwise>
                 <c:forEach items="${listaLibros}" var="book">
                     <tr>
-                        <td><c:out value="${book.idbook}"/></td>
-                        <td><c:out value="${book.title}"/></td>
-                        <td><c:out value="${book.description}"/></td>
-                        <td><c:out value="${book.author}" /></td>
+                        <td><c:out value="${book.idlibro}"/></td>
+                        <td><c:out value="${book.titulo}"/></td>
+                        <td><c:out value="${book.descripcion}"/></td>
+                        <td><c:out value="${book.autor}" /></td>
                         <td>
                             <i class="fa-solid fa-pen-to-square"></i>
 
