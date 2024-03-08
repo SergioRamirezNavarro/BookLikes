@@ -34,10 +34,10 @@
                     <c:otherwise>
                         <c:forEach items="${listaLibros}" var="book">
                             <tr>
-                                <td><c:out value="${book.idbook}"/></td>
-                                <td><c:out value="${book.title}"/></td>
-                                <td><c:out value="${book.description}"/></td>
-                                <td><c:out value="${book.author}" /></td>
+                                <td><c:out value="${book.idlibro}"/></td>
+                                <td><c:out value="${book.titulo}"/></td>
+                                <td><c:out value="${book.descripcion}"/></td>
+                                <td><c:out value="${book.autor}" /></td>
                                 <td>
                                     <i class="fa-solid fa-pen-to-square"></i>
                                 </td>
@@ -51,7 +51,7 @@
         <button onclick="">dar alta libro</button>
 
         <button onclick="">dar baja libro</button>
-                <!-- <table>
+           <%--     <table>
                     <tr>
                         <th scope="col">-idlibro-</th>
                         <th scope="col">-titulo-</th>
@@ -88,7 +88,7 @@
                 </c:otherwise>
             </c:choose>
             </tbody>
-        </table> -->
+        </table> --%>
 
     </div>
 </div>

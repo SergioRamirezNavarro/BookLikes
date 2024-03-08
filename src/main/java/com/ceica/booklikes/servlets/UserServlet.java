@@ -1,6 +1,8 @@
 package com.ceica.booklikes.servlets;
 
+import com.ceica.booklikes.controller.BookController;
 import com.ceica.booklikes.controller.TaskController;
+import com.ceica.booklikes.models.Book;
 import com.ceica.booklikes.models.BookDTO;
 import com.ceica.booklikes.models.ModeloBase;
 import com.ceica.booklikes.models.User;
@@ -23,10 +25,6 @@ import java.util.List;
 public class UserServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
     {
-
-
-
-
         String logoutParam = request.getParameter("logout");
 
         // Si el parámetro "logout" tiene el valor "salir"
@@ -48,19 +46,11 @@ public class UserServlet extends HttpServlet {
                     response.sendRedirect("login");
                 }   else
                     {
-                        request.setAttribute("nombre", user.getNombre());
-                        List<BookDTO> bookDTOList = new ArrayList<>();
-                        BookDTO bookDTO=new BookDTO();
-                        bookDTO.setIdbook(2);
-                        bookDTO.setTitle("asdfasd");
-                        bookDTO.setDescription("assssssssss");
-                        bookDTO.setAuthor("!asd");
-                        bookDTO.setIduser(3);
-                        bookDTOList.add(bookDTO);
-                        bookDTOList.add(bookDTO);
-                        bookDTOList.add(bookDTO);
+                        BookController bookController = new BookController();
+                        bookController.userLogged=user;
+                        List<Book> bookDTOList=bookController.getAllBookByUser();
+                        request.setAttribute("name", user.getNombre());
                         request.setAttribute("listaLibros",bookDTOList);
-
                         request.getRequestDispatcher("user.jsp").forward(request, response);
                     }
             }

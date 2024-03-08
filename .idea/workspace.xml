@@ -9,9 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.">
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;- - -">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +91,7 @@
       <recent name="C:\Users\AlumnoTarde\IdeaProjects\BookLikes\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AlumnoTarde\IdeaProjects\BookLikes\src\main\java\com\ceica\booklikes\controller" />
       <recent name="C:\Users\AlumnoTarde\IdeaProjects\BookLikes\src\main" />
       <recent name="C:\Users\AlumnoTarde\IdeaProjects\BookLikes" />
     </key>
@@ -289,7 +294,7 @@
       <workItem from="1709736842109" duration="3710000" />
       <workItem from="1709741608081" duration="10463000" />
       <workItem from="1709825990765" duration="9705000" />
-      <workItem from="1709911352194" duration="1231000" />
+      <workItem from="1709911352194" duration="5291000" />
     </task>
     <task id="LOCAL-00001" summary="Proyecto Inicial.">
       <option name="closed" value="true" />
@@ -347,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709840526515</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;- - -">
+      <option name="closed" value="true" />
+      <created>1709913600306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709913600306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +373,7 @@
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user." />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user." />
+    <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;- - -" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;- - -" />
   </component>
 </project>
