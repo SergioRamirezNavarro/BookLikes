@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;User recibe de SQL.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/IndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceica/booklikes/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="4e352442-3d40-4bda-b684-fc1db94e840c" name="Changes" comment="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;User recibe de SQL.&#10;Merged Sergio-Fran." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +289,7 @@
       <workItem from="1709736842109" duration="3710000" />
       <workItem from="1709741608081" duration="10463000" />
       <workItem from="1709825990765" duration="9705000" />
-      <workItem from="1709911352194" duration="5672000" />
+      <workItem from="1709911352194" duration="6002000" />
     </task>
     <task id="LOCAL-00001" summary="Proyecto Inicial.">
       <option name="closed" value="true" />
@@ -370,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709919994530</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;User recibe de SQL.&#10;Merged Sergio-Fran.">
+      <option name="closed" value="true" />
+      <created>1709920509779</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709920509779</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +386,7 @@
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user." />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;- - -" />
     <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;User recibe de SQL." />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;User recibe de SQL." />
+    <MESSAGE value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;User recibe de SQL.&#10;Merged Sergio-Fran." />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto Inicial. Registro con tabla. Usuario con datos (pdte mod).&#10;DTOs.&#10;intento de register.&#10;+ user.&#10;User recibe de SQL.&#10;Merged Sergio-Fran." />
   </component>
 </project>
